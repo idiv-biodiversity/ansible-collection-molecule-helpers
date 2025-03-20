@@ -1,0 +1,30 @@
+---
+
+namespace: idiv_biodiversity
+name: molecule_helpers
+version: 0.1.0
+readme: README.md
+authors:
+  - Christian Krause <christian.krause@idiv.de>
+description: helpers for molecule
+license_file: LICENSE
+tags:
+  - infrastructure
+  - tools
+dependencies: { }
+repository: >-
+  https://github.com/idiv-biodiversity/ansible-collection-molecule-helpers
+documentation: >-
+  https://github.com/idiv-biodiversity/ansible-collection-molecule-helpers
+homepage: >-
+  https://github.com/idiv-biodiversity/ansible-collection-molecule-helpers
+issues: >-
+  https://github.com/idiv-biodiversity/ansible-collection-molecule-helpers/issues
+build_ignore:
+  - .ansible
+  - .config
+  - .github
+  - .yamllint
+  - roles/*/molecule
+
+...

@@ -1,0 +1,24 @@
+---
+
+galaxy_info:
+  author: Christian Krause
+  description: update package cache
+  company: German Centre for Integrative Biodiversity Research (iDiv)
+  license: MIT
+  min_ansible_version: '2.9'
+
+  platforms:
+
+    - name: ArchLinux
+      versions:
+        - all
+
+    - name: EL
+      versions:
+        - '8'
+        - '9'
+
+  galaxy_tags:
+    - molecule
+
+...
