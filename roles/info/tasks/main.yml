@@ -1,0 +1,11 @@
+---
+
+- name: show discovered python interpreter
+  ansible.builtin.debug:
+    var: ansible_facts.discovered_interpreter_python
+
+- name: show discovered package manager
+  ansible.builtin.debug:
+    var: ansible_facts.pkg_mgr
+
+...
