@@ -24,6 +24,7 @@ build_ignore:
   - .ansible
   - .config
   - .github
+  - .gitignore
   - .yamllint
   - roles/*/molecule
 
